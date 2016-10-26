@@ -8,7 +8,7 @@
     <param name="user" value="log4j"/>
     <param name="Threshold" value="ERROR"/>
     <layout class="org.apache.log4j.PatternLayout">
-       <param name="ConversionPattern" value="%d{ABSOLUTE} %-5p [%c{1}] %m%n"/>
+       <param name="ConversionPattern" value="%d{MMM dd, HH:mm} [%p] %c{1} - %m%n"/>
     </layout>
 </appender>
  
